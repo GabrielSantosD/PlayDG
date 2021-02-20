@@ -24,12 +24,16 @@ header#cabeca {
 }
 
 nav#menu {
-  width: 186px;
+  width: 170px;
+  border-right: 1px solid #dadada;
+  margin-right: 15px;
 }
 
 nav#menu ol {
-  width: 165px;
+  width: 145px;
   padding: 10px;
+  padding-right: 0px;
+  margin-right: 0px;
 }
 
 nav#menu li {
@@ -52,37 +56,12 @@ nav#menu li:hover {
   border-radius: 10px;
 }
 
-input {
-  -webkit-writing-mode: horizontal-tb !important;
-  text-rendering: auto;
-  color: -internal-light-dark(black, white);
-  letter-spacing: normal;
-  word-spacing: normal;
-  text-transform: none;
-  text-indent: 0px;
-  text-shadow: none;
-  display: inline-block;
-  text-align: start;
-  appearance: textfield;
-  background-color: -internal-light-dark(rgb(255, 255, 255), rgb(59, 59, 59));
-  -webkit-rtl-ordering: logical;
-  cursor: text;
-  margin: 0em;
-  font: 400 13.3333px Arial;
-  padding: 1px 2px;
-  border-width: 2px;
-  border-style: inset;
-  border-color: -internal-light-dark(rgb(118, 118, 118), rgb(133, 133, 133));
-  border-image: initial;
-  outline: 0;
-}
-
 header#cabeca input#busca {
   background-color: #f5f6fa;
   border: 1px solid rgba(255, 255, 255, .1);
   padding: 15px 50px 15px 30px;
   border-radius: 20px;
-  width: 250px;
+  width: 150px;
   height: 42px;
   font-weight: 300;
   color: #8795a2;
