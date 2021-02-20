@@ -24,13 +24,12 @@ header#cabeca {
 }
 
 nav#menu {
-  width: 225px;
+  width: 186px;
 }
 
 nav#menu ol {
   width: 165px;
   padding: 10px;
-  border-right: 1px solid #f5f6fa;
 }
 
 nav#menu li {
