@@ -1,0 +1,40 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+body {
+  font-family: roboto,Arial,sans-serif;
+  background-color: #f1f1f1;
+}
+
+header#cabeca {
+  position: relative;
+}
+
+div#player {
+  width: 97%;
+  margin: auto;
+  background: #fff;
+  border-bottom-left-radius: 7px;
+  border-bottom-right-radius: 7px;
+}
+
+div#player h1 {
+  font: 1.25rem/1.25rem Nunito, sans-serif;
+  font-weight: 600;
+  padding: 15px;
+}
+
+iframe {
+  width: 100vw;
+  height: 56.25vw;
+  max-height: 100vh;
+  max-width: 177.78vh;
+  margin: auto;
+  position: absolute;
+  top: 140px;
+  left: 0px;
+  right: 0px;
+  border: none;
+}

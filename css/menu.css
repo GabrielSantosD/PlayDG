@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=VT323&display=swap');
+@import "https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap";
+
+header#cabeca {
+  height: 75px;
+  position: fixed;
+  top: 0;
+  z-index: 120;
+  background-color: #fff;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  padding: 0;
+  border-bottom: 1px solid #dadada;
+  box-sizing: border-box;
+}
+
+nav#menu {
+  width: 170px;
+  border-right: 1px solid #dadada;
+  margin-right: 15px;
+}
+
+nav#menu ol {
+  width: 145px;
+  padding: 10px;
+  padding-right: 0px;
+  margin-right: 0px;
+}
+
+nav#menu li {
+  border-bottom: 1px solid #373737;
+  display: inline-block;
+  padding: 10px;
+}
+
+nav#menu a {
+  font-family: Montserrat,sans-serif;
+  font-size: 14px;
+  font-weight: 600;
+  color: #373737;
+}
+
+nav#menu li:hover {
+  transition: 0.3s;
+  background-color: #f5f6fa;
+  border: none;
+  border-radius: 10px;
+}
+
+header#cabeca input#busca {
+  background-color: #f5f6fa;
+  border: 1px solid rgba(255, 255, 255, .1);
+  padding: 15px 50px 15px 30px;
+  border-radius: 20px;
+  width: 150px;
+  height: 42px;
+  font-weight: 300;
+  color: #8795a2;
+  float: right;
+  outline: 0;
+}

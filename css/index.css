@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=VT323&display=swap');
+@import "https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap";
 
 * {
   margin: 0px;
@@ -6,76 +7,69 @@
 }
 
 body {
-  font-family: cursive;
+  font-family: roboto,Arial,sans-serif;
+  background-color: #f1f1f1;
 }
 
-header#cabeca {
-  height: 75px;
-  position: fixed;
-  top: 0;
-  z-index: 120;
-  background-color: #fff;
-  width: 100%;
-  display: flex;
-  align-items: center;
-  padding: 0;
-  border-bottom: 1px solid #dadada;
-  box-sizing: border-box;
-}
-
-nav#menu {
-  width: 170px;
-  border-right: 1px solid #dadada;
-  margin-right: 15px;
-}
-
-nav#menu ol {
-  width: 145px;
-  padding: 10px;
-  padding-right: 0px;
-  margin-right: 0px;
-}
-
-nav#menu li {
-  border-bottom: 1px solid #373737;
-  display: inline-block;
-  padding: 10px;
-}
-
-nav#menu a {
-  font-family: Montserrat,sans-serif;
-  font-size: 14px;
-  font-weight: 600;
-  color: #373737;
-}
-
-nav#menu li:hover {
-  transition: 0.3s;
-  background-color: #f5f6fa;
-  border: none;
-  border-radius: 10px;
-}
-
-header#cabeca input#busca {
-  background-color: #f5f6fa;
-  border: 1px solid rgba(255, 255, 255, .1);
-  padding: 15px 50px 15px 30px;
-  border-radius: 20px;
-  width: 150px;
-  height: 42px;
-  font-weight: 300;
-  color: #8795a2;
-  float: right;
-}
-
-iframe {
-  width: 100vw;
-  height: 56.25vw;
-  max-height: 100vh;
-  max-width: 177.78vh;
+header#bem-vindo {
+  width: 94%;
   margin: auto;
-  position: absolute;
-  top: 120px;
-  left: 0px;
-  right: 0px;
+  margin-top: 100px;
+  margin-bottom: 25px;
+  background: #fff;
+  border-radius: 7px;
+  color: black;
+}
+
+header#bem-vindo div#espaco {
+  padding: 5px;
+}
+
+header#bem-vindo p {
+  font: 1.00rem/1.25rem Nunito, sans-serif;
+  text-indent: 5px;
+  padding: 2px;
+}
+
+header#bem-vindo p#bemv {
+  color: rgb(243, 46, 89);
+  font: 1.25rem/1.25rem Nunito, sans-serif;
+  font-weight: bold;
+}
+
+header#bem-vindo span {
+  background-color: lightgray;
+}
+
+header#bem-vindo a {
+  color: rgb(243, 46, 89);
+}
+
+section.cartegorias {
+  width: 94%;
+  margin: auto;
+  background: #fff;
+  border-radius: 7px;
+  color: black;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+section.cartegorias p {
+  color: rgb(243, 46, 89);
+  font: 1.15rem/1.25rem Nunito, sans-serif;
+  font-weight: bold;
+  text-indent: 5px;
+  padding: 10px;
+}
+
+section.cartegorias img {
+  padding: 10px;
+  border-radius: 7px;
+}
+
+section.cartegorias img:hover {
+  transition: 0.3s;
+  width: 135px;
+  height: 175px;
 }
