@@ -12,9 +12,7 @@ body {
 div#sinopse {
   width: 94%;
   margin: auto;
-  background-image: url('../desenhos-animados/ben-10/capaback.png');
   background-repeat: no-repeat;
-  background-position: center;
   border-radius: 7px;
   padding-top: 75px;
 }
@@ -37,7 +35,7 @@ div#sinopse section#sin {
 
 div#sinopse section#sin h2 {
   font: 1.85rem/1.25rem Nunito, sans-serif;
-  color: rgb(30, 224, 44);
+  color: black;
   font-weight: bold;
   text-align: center;
   padding-top: 20px;

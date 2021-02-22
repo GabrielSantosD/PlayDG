@@ -63,6 +63,10 @@ section.cartegorias p {
   padding: 10px;
 }
 
+section.cartegorias a {
+  color: rgb(243, 46, 89);
+}
+
 section.cartegorias img {
   padding: 10px;
   border-radius: 7px;
