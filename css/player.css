@@ -49,9 +49,10 @@ div#paep ul {
 div#paep li {
   display: inline-block;
   text-align: center;
-  padding: 10px;
+  padding: 5px;
+  margin: 5px;
   background: #1c1c1c;
-  font: 1.00rem/1.25rem Nunito, sans-serif;
+  font: 0.85rem/1.25rem Nunito, sans-serif;
   color: white;
-  border-radius: 10px;
+  border-radius: 0px;
 }
