@@ -1,12 +1,20 @@
-@import url('https://fonts.googleapis.com/css2?family=VT323&display=swap');
-@import "https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap";
+* {
+	padding: 0;
+	margin: 0;
+	text-decoration: none;
+	list-style: none;
+	box-sizing: border-box;
+}
+
+body {
+	font-family: montserrat;
+}
 
 header#cabeca {
   height: 75px;
   position: fixed;
   top: 0;
   z-index: 120;
-  background-color: #333;
   width: 100%;
   display: flex;
   align-items: center;
@@ -15,47 +23,87 @@ header#cabeca {
   box-sizing: border-box;
 }
 
-nav#menu {
-  width: 250px;
-  border-right: 1px solid #dadada;
-  margin-right: 15px;
+nav {
+	background: #333;
+	height: 80px;
+	width: 100%;
 }
-
-nav#menu ol {
-  padding: 10px;
-  padding-right: 0px;
-  margin-right: 0px;
+label.logo {
+	color: white;
+	font-size: 35px;
+	line-height: 80px;
+	padding: 0 100px;
+	font-weight: bold;
 }
-
-nav#menu li {
-  border-bottom: 1px solid white;
-  display: inline-block;
-  padding: 10px;
+nav ul {
+	float: right;
+	margin-right: 20px;
 }
-
-nav#menu a {
-  font-family: Montserrat,sans-serif;
-  font-size: 14px;
-  font-weight: 600;
-  color: white;
+nav ul li {
+	display: inline-block;
+	line-height: 80px;
+	margin: 0 5px;
 }
-
-nav#menu li:hover {
-  transition: 0.3s;
-  background-color: #181818;
-  border: none;
-  border-radius: 10px;
+nav ul li a {
+	color: white;
+	font-size: 17px;
+	padding: 7px 13px;
+	border-radius: 3px;
+	text-transform: uppercase;
 }
-
-header#cabeca input#busca {
-  background-color: #f5f6fa;
-  border: 1px solid rgba(255, 255, 255, .1);
-  padding: 15px 50px 15px 30px;
-  border-radius: 20px;
-  width: 150px;
-  height: 42px;
-  font-weight: 300;
-  color: #8795a2;
-  float: right;
-  outline: 0;
+a.active, a.menu:hover {
+	background: rgb(121, 50, 210);
+	transition: .5s;
+}
+.checkbtn {
+	font-size: 30px;
+	color: white;
+	float: right;
+	line-height: 80px;
+	margin-right: 40px;
+	cursor: pointer;
+	display: none;
+}
+#check {
+	display: none;
+}
+@media (max-width: 952px){
+	label.logo{
+		font-size: 30px;
+		padding-left: 50px;
+	}
+	nav ul li a{
+		font-size: 16px;
+	}
+}
+@media (max-width: 858px){
+	.checkbtn {
+		display: block;
+	}
+	ul{
+		position: fixed;
+		width: 100%;
+		height: 100vh;
+		background: #181818;
+		top: 80px;
+		left: -100%;
+		text-align: center;
+		transition: all .5s;
+	}
+	nav ul li{
+		display: block;
+		margin: 50px 0;
+		line-height: 30px;
+    padding: 15px;
+	}
+	nav ul li a {
+		font-size: 20px;
+	}
+	a:hover, a.active {
+		background: none;
+		color: #5434af;
+	}
+	#check:checked ~ ul {
+		left: 0;
+	}
 }

@@ -44,6 +44,7 @@ header#bem-vindo span {
 
 header#bem-vindo a {
   color: rgb(243, 46, 89);
+  text-decoration: underline;
 }
 
 section.cartegorias {
