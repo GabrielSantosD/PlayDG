@@ -6,7 +6,7 @@ header#cabeca {
   position: fixed;
   top: 0;
   z-index: 120;
-  background-color: #fff;
+  background-color: #333;
   width: 100%;
   display: flex;
   align-items: center;
@@ -16,20 +16,19 @@ header#cabeca {
 }
 
 nav#menu {
-  width: 170px;
+  width: 250px;
   border-right: 1px solid #dadada;
   margin-right: 15px;
 }
 
 nav#menu ol {
-  width: 145px;
   padding: 10px;
   padding-right: 0px;
   margin-right: 0px;
 }
 
 nav#menu li {
-  border-bottom: 1px solid #373737;
+  border-bottom: 1px solid white;
   display: inline-block;
   padding: 10px;
 }
@@ -38,12 +37,12 @@ nav#menu a {
   font-family: Montserrat,sans-serif;
   font-size: 14px;
   font-weight: 600;
-  color: #373737;
+  color: white;
 }
 
 nav#menu li:hover {
   transition: 0.3s;
-  background-color: #f5f6fa;
+  background-color: #181818;
   border: none;
   border-radius: 10px;
 }

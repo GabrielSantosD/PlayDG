@@ -8,7 +8,7 @@
 
 body {
   font-family: roboto,Arial,sans-serif;
-  background-color: #f1f1f1;
+  background-color: #181818;
 }
 
 header#bem-vindo {
@@ -16,7 +16,7 @@ header#bem-vindo {
   margin: auto;
   margin-top: 100px;
   margin-bottom: 25px;
-  background: #fff;
+  background: #333;
   border-radius: 7px;
   color: black;
 }
@@ -26,13 +26,14 @@ header#bem-vindo div#espaco {
 }
 
 header#bem-vindo p {
+  color: white;
   font: 1.00rem/1.25rem Nunito, sans-serif;
   text-indent: 5px;
   padding: 2px;
 }
 
 header#bem-vindo p#bemv {
-  color: rgb(243, 46, 89);
+  color: rgb(121, 50, 210);
   font: 1.25rem/1.25rem Nunito, sans-serif;
   font-weight: bold;
 }
@@ -48,7 +49,7 @@ header#bem-vindo a {
 section.cartegorias {
   width: 94%;
   margin: auto;
-  background: #fff;
+  background: #333;
   border-radius: 7px;
   color: black;
   margin-top: 15px;
@@ -56,7 +57,7 @@ section.cartegorias {
 }
 
 section.cartegorias p {
-  color: rgb(243, 46, 89);
+  color: rgb(121, 50, 210);
   font: 1.15rem/1.25rem Nunito, sans-serif;
   font-weight: bold;
   text-indent: 5px;
@@ -64,7 +65,7 @@ section.cartegorias p {
 }
 
 section.cartegorias a {
-  color: rgb(243, 46, 89);
+  color: rgb(121, 50, 210);
 }
 
 section.cartegorias img {
@@ -77,3 +78,5 @@ section.cartegorias img:hover {
   width: 135px;
   height: 175px;
 }
+
+/*color: rgb(243, 46, 89)*/
