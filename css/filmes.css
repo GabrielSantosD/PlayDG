@@ -1,0 +1,108 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+body {
+  font-family: roboto,Arial,sans-serif;
+  background-color: #f1f1f1;
+}
+
+
+div#sinopse {
+  width: 94%;
+  margin: auto;
+  background-repeat: no-repeat;
+  border-radius: 7px;
+  padding-top: 75px;
+}
+
+div#sinopse img {
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: 25px;
+  border: 2px solid black;
+}
+
+div#sinopse section#sin {
+  border-radius: 7px;
+  border-top-right-radius: 0px;
+  border-top-left-radius: 0px;
+  background: #fff;
+  margin-bottom: 20px;
+}
+
+div#sinopse section#sin h2 {
+  font: 1.85rem/1.25rem Nunito, sans-serif;
+  color: black;
+  font-weight: bold;
+  text-align: center;
+  padding-top: 20px;
+  text-decoration: underline;
+  margin-bottom: 10px;
+}
+
+hr {
+  width: 85%;
+  margin: auto;
+}
+
+div#sinopse section#sin p#info {
+  color: rgb(243, 46, 89);
+  font: 1.25rem/1.55rem Nunito, sans-serif;
+  font-weight: bold;
+  text-indent: 0px;
+  text-align: center;
+}
+
+div#sinopse section#sin p {
+  text-indent: 10px;
+  padding: 10px;
+  font: 1.00rem/1.25rem Nunito, sans-serif;
+}
+
+div#sinopse section#sin span {
+  color: rgb(243, 46, 89);
+  font-weight: bold;
+}
+
+section#menu-de-qualidade {
+  width: 94%;
+  margin: auto;
+  border-radius: 7px;
+}
+
+div#qualidade {
+  margin-top: 10px;
+  border-radius: 7px;
+  background: #fff;
+}
+
+div#qualidade h3 {
+  font: 1.15rem/1.25rem Nunito, sans-serif;
+  font-weight: 600;
+  padding: 10px;
+}
+
+div#qualidade img {
+  padding: 10px;
+}
+
+div#qualidade a {
+  font: 1.00rem/1.25rem Nunito, sans-serif;
+  color: black;
+  text-decoration: none;
+}
+
+div#qualidade a:hover {
+  text-decoration: underline;
+}
+
+div.qld {
+  background: rgb(246, 246, 246);
+  border: 1px solid #dadada;
+  border-radius: 7px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
