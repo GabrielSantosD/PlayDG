@@ -5,7 +5,7 @@
 
 body {
   font-family: roboto,Arial,sans-serif;
-  background-color: #f1f1f1;
+  background-color: #181818;
 }
 
 
@@ -29,13 +29,13 @@ div#sinopse section#sin {
   border-radius: 7px;
   border-top-right-radius: 0px;
   border-top-left-radius: 0px;
-  background: #fff;
+  background: #333;
   margin-bottom: 20px;
 }
 
 div#sinopse section#sin h2 {
   font: 1.85rem/1.95rem Nunito, sans-serif;
-  color: black;
+  color: white;
   font-weight: bold;
   text-align: center;
   padding-top: 20px;
@@ -57,6 +57,7 @@ div#sinopse section#sin p#info {
 }
 
 div#sinopse section#sin p {
+  color: white;
   text-indent: 10px;
   padding: 10px;
   font: 1.00rem/1.25rem Nunito, sans-serif;
@@ -76,10 +77,11 @@ section#menu-de-qualidade {
 div#qualidade {
   margin-top: 10px;
   border-radius: 7px;
-  background: #fff;
+  background: #333;
 }
 
 div#qualidade h3 {
+  color: white;
   font: 1.15rem/1.25rem Nunito, sans-serif;
   font-weight: 600;
   padding: 10px;
@@ -91,7 +93,7 @@ div#qualidade img {
 
 div#qualidade a {
   font: 1.00rem/1.25rem Nunito, sans-serif;
-  color: black;
+  color: white;
   text-decoration: none;
 }
 
@@ -100,7 +102,7 @@ div#qualidade a:hover {
 }
 
 div.qld {
-  background: rgb(246, 246, 246);
+  background-color: none;
   border: 1px solid #dadada;
   border-radius: 7px;
   margin-top: 5px;
