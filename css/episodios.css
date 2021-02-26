@@ -94,7 +94,7 @@ div#episodios {
 
 div#episodios h3 {
   color: white;
-  font: 1.15rem/1.25rem Nunito, sans-serif;
+  font: 1.45rem/1.25rem Nunito, sans-serif;
   font-weight: 600;
   padding: 10px;
 }
@@ -115,8 +115,21 @@ div#episodios a:hover {
 
 div.eps {
   background: none;
-  border: 1px solid rgb(121, 50, 210);
-  border-radius: 3px;
+  border: 2px solid #fff;
+  border-radius: 7px;
   margin-top: 5px;
   margin-bottom: 5px;
+}
+
+select {
+  padding: 10px;
+  outline: 0;
+  color: white;
+  font: 1.35rem/1.25rem Nunito, sans-serif;
+  background-color: transparent;
+  border: none;
+}
+
+select option {
+  background-color: #181818;
 }
