@@ -99,6 +99,20 @@ div#episodios h3 {
   padding: 10px;
 }
 
+div#episodios h4 {
+  color: white;
+  font: 1.15rem/1.25rem Nunito, sans-serif;
+  font-weight: 600;
+  padding-left: 10px;
+}
+
+div#episodios p#parte-sinopse {
+  color: darkgray;
+  font: 1.00rem/1.25rem Nunito, sans-serif;
+  padding-left: 10px;
+  width: 60%;
+}
+
 div#episodios img {
   padding: 10px;
 }
@@ -119,6 +133,11 @@ div.eps {
   border-radius: 7px;
   margin-top: 5px;
   margin-bottom: 5px;
+}
+
+div.eps img {
+  width: 148px;
+  height: 84px;
 }
 
 select {
